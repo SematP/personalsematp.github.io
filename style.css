@@ -1,0 +1,158 @@
+*{
+
+    list-style-type: none;
+}
+
+body{
+    font-family: "Harmattan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ul-menu {
+    background-color :#333;
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.li-menu{
+    float: right;
+}
+
+.a-menu{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    padding: 17px;
+}
+
+.li-menu a:hover{
+    background-color: black;
+}
+
+.title-menu{
+    font-size: 40px;
+    display: inline;
+}
+
+.column{
+    width: 50%;
+    float: left;
+    text-align: center;
+
+}
+
+.profile-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+  
+}
+
+.social{
+    width: 25px;
+    padding: 5px;
+}
+
+.left{
+    float: left;
+    width: 20%;
+}
+
+.right{
+    float: left;
+    width: 80%;
+}
+
+.row{
+    padding: 5px;
+}
+
+.row:after{
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.main-bar{
+    background-color: gray;
+    display: block;
+    height: 25px;
+}
+
+.main-bar span{
+
+    background-color: rgb(38, 88, 72);
+    display: block;
+    height: 25px;
+    color: white;
+}
+
+.javascript{
+    width: 90%;
+    animation: javascript 2s;
+}
+
+.android{
+    width: 40%;
+    animation: android 2s;
+}
+
+.photoshop{
+    width: 70%;
+    animation: photoshop 2s;
+}
+
+.github{
+    width: 68%;
+    animation: github 2s;
+}
+
+.footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    height: 45px;
+}
+
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    } 
+}
+@keyframes android {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:40%;
+    } 
+}
+@keyframes photoshop {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    } 
+}
+@keyframes github {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 68%;
+    } 
+}
+
+@media screen and (max-width:800px) {
+    .column{
+        width: 100%;
+    }
+}
